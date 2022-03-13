@@ -1,5 +1,6 @@
 
 def getWordNumber(number):
+    numberLen = len(str(number))
     i = numberLen
     temp = number
     rem = 0
@@ -63,9 +64,9 @@ numberWord2 = ['Ten','Twenty','Thirty','Forty','Fifty','Sixty','Seventy','Eighty
 numberWord3 = ['Eleven','Twelve','Thirteen','Fourteen','Fifteen','Sixteen','Seventeen','Eighteen','Nineteen']
 numberWord4 = ['Hundred','Thousand','Million','Billion']
 
-number = int(input("Enter a number:"))
-numberLen = len(str(number))
-print(getWordNumber(number))
+# number = int(input("Enter a number:"))
+# numberLen = len(str(number))
+# print(getWordNumber(number))
 
 
 
